@@ -14,35 +14,52 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class CalculadoraJUnitTest {
 
     Calculadora calculadora = new Calculadora();
+
+    /**
+     * Cenário de teste 1: soma de dois numeros inteiros
+     */
     @Test
-    @DisplayName("O método recebe dois números inteiros e soma o segundo ao primeiro")
+    @DisplayName("O metodo recebe dois numeros inteiros e soma o segundo ao primeiro")
     void somaDoisNumerosInteiros() {
-//        comparação entre o valor esperado (nesse caso 15)
-//        e o valor que será retornado pelo metodo somaDoisNumerosInteiros ao receber 10 e 5 como parâmetros
-        assertEquals(15, calculadora.somaDoisNumerosInteiros(10, 5));
+//        resultadoReal armazena o valor do método somaDoisNumerosInteiros
+        double resultadoReal = calculadora.somaDoisNumerosInteiros(10, 5);
+//        compara o resultado esperado com o resultado real armazenado na variável resultadoReal
+        assertEquals(15, resultadoReal);
     }
 
+    /**
+     * Cenário de teste 2: subtracao de dois numeros inteiros
+     */
     @Test
-    @DisplayName("O método recebe dois números inteiros e subtrai o segundo do primeiro")
+    @DisplayName("O metodo recebe dois numeros inteiros e subtrai o segundo do primeiro")
     void subtraiDoisNumerosInteiros() {
-//        comparação entre o valor esperado (nesse caso 5)
-//        e o valor que será retornado pelo metodo subtraiDoisNumerosInteiros ao receber 10 e 5 como parâmetros
-        assertEquals(5, calculadora.subtraiDoisNumerosInteiros(10, 5));
+//        resultadoReal armazena o valor do método subtraiDoisNumerosInteiros
+        double resultadoReal = calculadora.subtraiDoisNumerosInteiros(10, 5);
+//        compara o resultado esperado com o resultado real armazenado na variável resultadoReal
+        assertEquals(5, resultadoReal);
     }
 
+    /**
+     * Cenário de teste 3: multiplicacao de dois numeros inteiros
+     */
     @Test
-    @DisplayName("O método recebe dois números inteiros e multiplica o primeiro pelo segundo")
+    @DisplayName("O metodo recebe dois numeros inteiros e multiplica o primeiro pelo segundo")
     void multiplicaDoisNumerosInteiros() {
-//        comparação entre o valor esperado (nesse caso 50)
-//        e o valor que será retornado pelo metodo multiplicaDoisNumerosInteiros ao receber 10 e 5 como parâmetros
-        assertEquals(50, calculadora.multiplicaDoisNumerosInteiros(10, 5));
+//        resultadoReal armazena o valor do método multiplicaDoisNumerosInteiros
+        double resultadoReal = calculadora.multiplicaDoisNumerosInteiros(10, 5);
+//        compara o resultado esperado com o resultado real armazenado na variável resultadoReal
+        assertEquals(50, resultadoReal);
     }
 
+    /**
+     * Cenário de teste 4: divisao de dois numeros inteiros
+     */
     @Test
-    @DisplayName("O método recebe dois números inteiros e divide o primeiro pelo segundo")
+    @DisplayName("O metodo recebe dois numeros inteiros e divide o primeiro pelo segundo")
     void divideDoisNumerosInteiros() {
-//        comparação entre o valor esperado (nesse caso 2)
-//        e o valor que será retornado pelo metodo divideDoisNumerosInteiros ao receber 10 e 5 como parâmetros
-        assertEquals(2, calculadora.divideDoisNumerosInteiros(10, 5));
+//        resultadoReal armazena o valor do método divideDoisNumerosInteiros
+        double resultadoReal = calculadora.divideDoisNumerosInteiros(10, 5);
+//        compara o resultado esperado com o resultado real armazenado na variável resultadoReal
+        assertEquals(2, resultadoReal);
     }
 }
