@@ -72,23 +72,23 @@ public class CalculadoraTeste {
 
         // DIVISÃO
         // Teste cenário 1: Dividindo dois números inteiros sendo ambos positivos
-        resultado = calc.multiplicaDoisNumerosInteiros(4, 3);
+        resultado = calc.divideDoisNumerosInteiros(4, 3);
         System.out.println(resultado);
 
         // Teste cenário 2: Dividindo dois números inteiros sendo o primeiro positivo e o segundo negativo
-        resultado = calc.multiplicaDoisNumerosInteiros(4, -3);
+        resultado = calc.divideDoisNumerosInteiros(4, -3);
         System.out.println(resultado);
 
         // Teste cenário 3: Dividindo dois números inteiros sendo o primeiro negativo e o segundo positivo
-        resultado = calc.multiplicaDoisNumerosInteiros(-4, 3);
+        resultado = calc.divideDoisNumerosInteiros(-4, 3);
         System.out.println(resultado);
 
         // Teste cenário 4: Dividindo dois números inteiros sendo ambos negativos
-        resultado = calc.multiplicaDoisNumerosInteiros(-3, -4);
+        resultado = calc.divideDoisNumerosInteiros(-3, -4);
         System.out.println(resultado);
 
         // Teste cenário 5: Dividindo zeros
-        resultado = calc.multiplicaDoisNumerosInteiros(0, 0);
+        resultado = calc.divideDoisNumerosInteiros(0, 0);
         System.out.println(resultado);
     }
 
