@@ -1,3 +1,8 @@
+
+//    @author Gabriel Viegas Dantas
+//    @version 1.0
+//    @since Release 1.0 da aplicação
+
 package org.example;
 
 public class CalculadoraTeste {
