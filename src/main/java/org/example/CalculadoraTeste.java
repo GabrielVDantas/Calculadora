@@ -1,9 +1,10 @@
-
-//    @author Gabriel Viegas Dantas
-//    @version 1.0
-//    @since Release 1.0 da aplicação
-
 package org.example;
+
+/**
+ * @author Gabriel Viegas Dantas
+ * @version 1.0
+ * @since Release 1.0 da aplicação
+ */
 
 public class CalculadoraTeste {
     public static void main(String[] args) {
