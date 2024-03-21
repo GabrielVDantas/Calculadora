@@ -13,8 +13,8 @@ public class CalculadoraTeste {
 
         double resultado;
 
-        // SOMA
-        // Teste cenário 1: Somando dois números inteiros sendo ambos positivos
+        //TESTES MANUAIS - SOMA
+        // Teste cenário 1 - Somando dois números inteiros sendo ambos positivos
         resultado = calc.somaDoisNumerosInteiros(4, 3);
         System.out.println(resultado);
 
@@ -34,7 +34,7 @@ public class CalculadoraTeste {
         resultado = calc.somaDoisNumerosInteiros(0, 0);
         System.out.println(resultado);
 
-        // SUBTRAÇÃO
+        //TESTES MANUAIS - SUBTRAÇÃO
         // Teste cenário 1: Subtraindo dois números inteiros sendo ambos positivos
         resultado = calc.subtraiDoisNumerosInteiros(4, 3);
         System.out.println(resultado);
@@ -55,7 +55,7 @@ public class CalculadoraTeste {
         resultado = calc.subtraiDoisNumerosInteiros(0, 0);
         System.out.println(resultado);
 
-        // MULTIPLICAÇÃO
+        //TESTES MANUAIS - MULTIPLICAÇÃO
         // Teste cenário 1: Multiplicando dois números inteiros sendo ambos positivos
         resultado = calc.multiplicaDoisNumerosInteiros(4, 3);
         System.out.println(resultado);
@@ -76,7 +76,7 @@ public class CalculadoraTeste {
         resultado = calc.multiplicaDoisNumerosInteiros(0, 0);
         System.out.println(resultado);
 
-        // DIVISÃO
+        //TESTES MANUAIS - DIVISÃO
         // Teste cenário 1: Dividindo dois números inteiros sendo ambos positivos
         resultado = calc.divideDoisNumerosInteiros(4, 3);
         System.out.println(resultado);
