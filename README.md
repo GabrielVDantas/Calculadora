@@ -1,6 +1,6 @@
 # Calculadora
 
-Uma calcuadora feita em java com as quatro operações básicas de adição, subtração, multiplicação e divisão.
+Uma calculadora feita em java com as quatro operações básicas de adição, subtração, multiplicação e divisão.
 
 ## Ferramentas usadas
 
